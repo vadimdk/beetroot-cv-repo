@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link href="./styles/style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Fjalla+One|Oswald|Baloo+2:500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <video class="background-video">
+        <!-- autoplay muted loop -->
+        <source src="./videos/vidos.mp4" type="video/mp4">
+    </video>
+
+    <header>
+        <nav>
+            <ul>
+                <li> <a href="#about_me"></a> About me</li>
+                <li><a href="#portfolio"></a>Portfolio</li>
+                <li><a href="#feedback"></a>Feedback</li>
+            </ul>
+        </nav>
+    </header>
+    <main class="wrapper">
+        <div id="about_me" class="manual-padding-on-top">
+
+
+
+            <div class="row-content background-color">
+                <img class="my-photo" src="./images/MyPhoto.jpeg" alt="photo">
+                <div class="personal-info">
+                    <h1>Vadim Kostiuk</h1>
+                    <h2>Front end</h2>
+                    <h3>Zhytomir</h3>
+                    <h4>vadim@gmail.com</h4>
+                </div>
+            </div>
+
+
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi suscipit praesentium culpa provident alias
+                labore
+                tenetur repellendus maiores vel! Ipsam nemo necessitatibus reprehenderit officiis eaque molestiae
+                aspernatur
+                pariatur eius quas.</p>
+
+            <h5>Skills</h5>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JS</li>
+                <li>Sass</li>
+                <li>Gulp</li>
+                <li>Webpack</li>
+                <li>React</li>
+            </ul>
+
+            <h5>Social network</h5>
+
+            <ol>
+                <li><a href="www.facebook.com" target="_blank">facebook.com</a></li>
+            </ol>
+
+
+
+
+        </div>
+
+        <div class="triangle-right"></div>
+
+        <div id="portfolio" class="manual-padding-on-top">
+            <h2 class="content-title">Portfolio</h2>
+            <div class="portfolio-list">
+                <a href="../lesson1/index.html" class="portfolio-item" target="_blank">
+                    <img src="./images/MyPhoto.jpeg" alt="cv">
+                    <div class="item-mame">
+                        CV
+                    </div>
+                </a>
+            </div>
+
+        </div>
+
+        <div class="triangle-left"></div>
+        <div id="feedback" class="manual-padding-on-top">
+            <h2 class="content-title">feedback</h2>
+            <div class="feedback-container">
+                <form action="">
+                    <fieldset>
+                        <label for="email">Enter email</label>
+                        <input type="email" name="email">
+                    </fieldset>
+                    <div class="submit-form-container">
+                        <div class="row">
+                            <input type="checkbox" name="condition" id="agree">
+                            <label for="agree">I agree to the <a href="#">privacy policy</a>and <a href="#">terms of
+                                    use</a>
+                            </label>
+                        </div>
+                        <input type="submit" value="Submit your feedback">
+                    </div>
+
+                </form>
+            </div>
+        </div>
+
+    </main>
+</body>
+
+</html>
