@@ -126,6 +126,10 @@ header a:hover {
   border-radius: 10px;
 }
 
+.projects {
+  margin-left: 15px;
+}
+
 .row-content {
   display: flex;
   align-items: stretch;
